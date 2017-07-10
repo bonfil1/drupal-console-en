@@ -13,5 +13,5 @@ examples:
       execution: |
         drupal debug:database:log
     - description: 'List specific log entry by Event ID'
-          execution: |
-            drupal debug:database:log 21228
+      execution: |
+        drupal debug:database:log 21228

@@ -24,3 +24,7 @@ table-headers:
     plugin-class: 'Plugin class'
     definition-key: 'Key'
     definition-value: 'Value'
+examples:
+    - description: 'Displays a list with all the plugins on the current site'
+      execution: |
+        drupal debug:plugin
